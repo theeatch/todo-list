@@ -2,9 +2,7 @@ import React from "react";
 
 
 const MyNavbar = () => {
-  // function refreshPage() {
-  //   window.location.reload(false);
-  // }
+   
 
   return (
     <div className="navbar bg-primary-focus ">
