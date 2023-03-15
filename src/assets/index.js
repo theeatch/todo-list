@@ -1,5 +1,0 @@
-export const  Github= require('./github.png')  
-export const  Instagram= require('./instagram.png')  
-export const  Logo= require('./todolistLogo.png')  
-export const  Youtube= require('./youtube.png')  
-export const  Discord = require('./discord.png')
