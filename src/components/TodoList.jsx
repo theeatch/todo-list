@@ -80,7 +80,7 @@ const TodoList = () => {
         ) : (
           ""
         )}
-        {taskLength ? taskDone : ""}
+        {taskLength ? `{taskDone}%`: ""}
         <button className="btn glass hover:text-black hover:bg-slate-400 hover:scale-105 duration-300" onClick={deleteTodo}>
           Delete Selected
         </button>
