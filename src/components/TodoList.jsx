@@ -80,7 +80,7 @@ const TodoList = () => {
         ) : (
           ""
         )}
-        <div className="font-serif text-xl p-2">{taskLength ? `{taskDone}%`: ""}</div>
+        <div className="font-serif text-xl p-2">{taskLength ? taskDone: ""}</div>
         <button className="btn glass hover:text-black hover:bg-slate-400 hover:scale-105 duration-300" onClick={deleteTodo}>
           Delete Selected
         </button>
