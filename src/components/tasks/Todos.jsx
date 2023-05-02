@@ -6,9 +6,9 @@ const Todos = ({todo, toggleTodo }) => {
     toggleTodo(todo.id)
 }
   return (
-    <div className="list__todos font-serif p-1 text-neutral-focus flex gap-2">
-      <input type="checkbox" checked={todo.complete} id="todo.id" onChange={handleTodoClick} />
-      <p className="font-serif text-lg text-primary-dark">{todo.name}</p>
+    <div className="list__todos font-serif p-2 text-neutral-focus flex gap-2 ">
+      <input type="checkbox" checked={todo.complete} id="todo.id" className="w-6" onChange={handleTodoClick} />
+      <p className="font-serif text-2xl text-primary-dark">{todo.name}</p>
     </div>
   )
 }

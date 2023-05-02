@@ -5,7 +5,7 @@ const MyNavbar = () => {
    
 
   return (
-    <div className="navbar bg-primary-focus ">
+    <div className="navbar bg-primary-focus h-28">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -32,7 +32,7 @@ const MyNavbar = () => {
               <a href="/">Homepage</a>
             </li>
             <li>
-              <a href="www.youtube.com">Portfolio</a>
+              <a href="https://www.youtube.com/DHsPianoLand">Portfolio</a>
             </li>
             <li>
               <a href="https://github.com/theeatch/todo-list">About</a>

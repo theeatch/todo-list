@@ -6,7 +6,7 @@ import youtube from "../assets/youtube.png"
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center bottom-0 p-10 bg-base-200 text-primary-content">
+    <footer className="h-full footer footer-center bottom-0 p-10 bg-base-200 text-primary-content">
   <div>
     <img src={logo} alt="yes" className="h-14 w-14  "/>
     <p className="font-bold pt-2">

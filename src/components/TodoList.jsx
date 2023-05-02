@@ -69,18 +69,18 @@ const TodoList = () => {
       <div className="list__todo-tasks">
         <Tasks todos={todos} toggleTodo={toggleTodo} />
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col py-4">
         {taskLength ? (
           <div
-            className="radial-progress text-accent p-10 self-center"
-            style={{ "--value":  nodone  }}
+            className="radial-progress text-accent self-center"
+            style={{ "--value":  nodone }}
           >
-            {nodone}
+            `{nodone} %`
           </div>
         ) : (
           ""
         )}
-        {taskLength ? taskDone : ""}
+        <div className="font-serif text-xl p-2">{taskLength ? taskDone : ""}</div>
         <button className="btn glass hover:text-black hover:bg-slate-400 hover:scale-105 duration-300" onClick={deleteTodo}>
           Delete Selected
         </button>

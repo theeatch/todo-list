@@ -17,7 +17,7 @@ import { Footer, PageContent, MyNavbar } from "./components/";
 
 function App() {
   return (
-    <div className="max-h-screen">
+    <div className="min-h-screen">
       
       <MyNavbar />
  
